@@ -27,10 +27,26 @@ body {
 .header {
 	display: flex;
 	justify-content: center;
+	padding: 20px 0;
+}
+
+.header h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: #34495e;
+    letter-spacing: 1px;
+    margin: 0;
+    opacity: 0.8;
 }
 
 .navbar {
 	padding: 10px 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	max-width: 90%;
+	border-radius: 10px;
+	margin: 0 auto;
 }
 
 .navbar ul {
@@ -71,8 +87,6 @@ body {
 	background-image: url("../images/chat-img.jpg");
 	background-size: cover;
 	background-position: center;
-	backdrop-filter: blur(10px);
-	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .message-area {
