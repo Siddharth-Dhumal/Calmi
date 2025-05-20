@@ -5,6 +5,77 @@ body, html {
 	font-family: Arial, sans-serif;
 }
 
-.submit label {
-	display: inline;
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navbar li {
+	margin: 0 15px;
+	list-style: none;
+}
+
+.welcome-text h4 {
+	display: flex;
+}
+
+#main-section {
+	height: calc(100vh - 100px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chat-container {
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	max-width: 600px;
+	height: 80vh;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+
+.message-area {
+	flex-grow: 1;
+	padding: 20px;
+	overflow-y: auto;
+	border-bottom: 1px solid #eee;
+}
+
+.input-area {
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.input-area input[type="text"] {
+	flex: 1;
+  	padding: 10px;
+  	border: 1px solid #ccc;
+  	border-radius: 5px;
+  	margin-right: 10px;
+}
+
+.input-area button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.input-area button:hover {
+	background-color: #45a049;
 }
